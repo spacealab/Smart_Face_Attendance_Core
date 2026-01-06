@@ -1,0 +1,29 @@
+{
+	// text to speech engine language and speech rate
+	"language": "english-us",
+
+	// path to the dataset directory
+	"dataset_path": "dataset",
+
+	// school/university code for the class
+	"class": "PROJECT",
+
+	// number of face detections before actually saving the faces to
+	// disk
+	"n_face_detection": 30,
+	
+	// number of images required per person in the dataset
+	"face_count": 30,
+
+
+	// path to the database
+	"db_path": "database/enroll.json",
+
+	// paths to the encodings, recognizer, and label encoder
+	"encodings_path": "output/encodings.pickle",
+	"recognizer_path": "output/recognizer.pickle",
+	"le_path": "output/le.pickle",
+
+	// dlib face detection to be used
+	"detection_method": "hog"
+}

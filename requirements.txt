@@ -1,0 +1,11 @@
+cmake
+dlib
+opencv-python
+tinydb==3.15.0 
+face_recognition 
+imutils 
+scikit-learn 
+json_minify 
+python-datauri
+numpy==1.26.3
+# tkinter/
